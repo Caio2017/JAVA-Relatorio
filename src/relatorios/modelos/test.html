@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a $title1</title>
+    </head>
+    <body>
+        <center>
+        <h1>$title2</h1>
+            <table border="1px">
+                <thead>
+                    <tr>
+                            <th>Nome</th>
+                            <th>Sexo</th>
+                            <th>Salario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{LOOP_IN}}
+                    <tr>
+                            <td>{{NOME}}</td>
+                            <td>{{SEXO}}</td>
+                            <td>{{SALARIO}}</td>
+                    </tr>
+                    {{LOOP_FIM}}
+                </tbody>
+            </table>
+        </center>
+    </body>
+</html>
